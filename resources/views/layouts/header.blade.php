@@ -8,7 +8,7 @@
             	<div class="inner-container clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    	<div class="logo"><a href="index.html">PathWaysSafaris</a></div>
                     </div>
                    	
                    	<div class="nav-outer clearfix">
