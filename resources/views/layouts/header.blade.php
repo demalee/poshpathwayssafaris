@@ -7,9 +7,11 @@
         	<div class="auto-container">
             	<div class="inner-container clearfix">
                 	
-                	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="index.html">PathWaysSafaris</a></div>
-                    </div>
+                	<!-- <div class="pull-left logo-box">
+                   
+                    	<div class="logo"><a href="index.html"><h4>PathWaysSafaris<h4></a></div>
+
+                    </div> -->
                    	
                    	<div class="nav-outer clearfix">
 						<!-- Mobile Navigation Toggler -->
@@ -26,38 +28,20 @@
 
 							<div class="navbar-collapse show collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li class="current dropdown"><a href="index-2.html#">Home</a>
-										<ul>
-											<li><a href="index.html">Home Page 01</a></li>
-											<li><a href="index-2.html">Home Page 02</a></li>
-										</ul>
+									<li><a href="{{url('/')}}">Home</a>
+										
 									</li>
-									<li class="dropdown"><a href="index-2.html#">About Us</a>
-										<ul>
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="faq.html">Faq's</a></li>
-										</ul>
+									<li ><a href="index-2.html#">About Us</a>
+									
 									</li>
-									<li class="dropdown"><a href="index-2.html#">Tours</a>
-										<ul>
-											<li><a href="tour.html">Tour Grid</a></li>
-											<li><a href="tour-list.html">Tour List</a></li>
-											<li><a href="tour-detail.html">Tour Detail</a></li>
-										</ul>
+									<li ><a href="index-2.html#">Tours</a>
+									
 									</li>
-									<li class="dropdown"><a href="index-2.html#">Destination</a>
-										<ul>
-											<li><a href="destination.html">Destination</a></li>
-											<li><a href="destination-2.html">Destination 02</a></li>
-											<li><a href="destination-detail.html">Destination Detail</a></li>
-										</ul>
+									<li ><a href="index-2.html#">Destination</a>
+										
 									</li>
-									<li class="dropdown"><a href="index-2.html#">Blog</a>
-										<ul>
-											<li><a href="blog.html">Blog Grid</a></li>
-											<li><a href="blog-list.html">Blog List</a></li>
-											<li><a href="blog-detail.html">Blog Detail</a></li>
-										</ul>
+									<li ><a href="index-2.html#">Blog</a>
+										
 									</li>
 									<li><a href="contact.html">Contact</a></li>
 								</ul>
@@ -70,7 +54,7 @@
 						
 							<!-- Number Box -->
 							<div class="number-box">
-								<a href="tel:+088-6164-7881" class="number"><span class="icon flaticon-phone-call"></span>+088-6164-7881</a>
+								<a href="tel:+088-6164-7881" class="number"><span class="icon flaticon-phone-call"></span>+254706244585</a>
 							</div>
 							
 							<!-- Cart Box -->
