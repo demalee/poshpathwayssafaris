@@ -35,7 +35,7 @@ class Destination extends Model
         return [
 
             'title' => 'required|string|max:255|unique:destinations,title,' . $id,
-             'slug' => 'required|string|max:255|unique:destinations,slug,' . $id,
+             'slug' => 'nullable|string|max:255|unique:destinations,slug,' . $id,
              'image' => 'required|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
              'description'=>'required|string|min:100',
               'location' => 'required|string|max:255',
