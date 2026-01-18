@@ -1,3 +1,13 @@
+   <!-- Call To Action Section -->
+	<section class="call-to-action-section" style="background-image:url(images/background/4.jpg)">
+		<div class="auto-container">
+			<h2>Upscale Downtown Suites</h2>
+			<div class="street">700 MAIN STREET</div>
+			<a href="tour.html#" class="theme-btn btn-style-one"><span class="txt">Trending Tour</span></a>
+		</div>
+	</section>
+	<!-- End Call To Action Section -->
+   
    <footer class="main-footer style-two" style="background-image:url(images/background/5.jpg)">
 		<div class="auto-container">
 		

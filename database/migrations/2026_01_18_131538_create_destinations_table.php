@@ -14,6 +14,13 @@ return new class extends Migration
         Schema::create('destinations', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('title');
+            $table->string('slug')->unique();
+            $table->string('image')->nullable;
+             $table->text('description');
+            $table->string('location');
+            $table->json('activities')->nullable();
+            $table->softDeletes();
         });
     }
 

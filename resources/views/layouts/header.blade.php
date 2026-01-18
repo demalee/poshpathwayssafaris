@@ -31,19 +31,20 @@
 									<li><a href="{{url('/')}}">Home</a>
 										
 									</li>
-									<li ><a href="index-2.html#">About Us</a>
+									<li ><a href="{{url('about')}}">About Us</a>
 									
 									</li>
-									<li ><a href="index-2.html#">Tours</a>
+									<li ><a href="{{url('tour')}}">Tours</a>
 									
 									</li>
-									<li ><a href="index-2.html#">Destination</a>
+									<li ><a href="{{url('destination')}}">Destination</a>
 										
 									</li>
-									<li ><a href="index-2.html#">Blog</a>
+									<li ><a href="{{url('blog')}}">Blog</a>
 										
 									</li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="{{url('blog')}}">Contact</a></li>
+                                    	<li><a href="{{url('admin/admin-dashboard')}}">admin</a></li>
 								</ul>
 							</div>
 							
