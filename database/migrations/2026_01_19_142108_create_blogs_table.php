@@ -11,16 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tours', function (Blueprint $table) {
+        Schema::create('blogs', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('title');
-            $table->string('slug')->unique();
-            $table->text('description');
+            $table->text('content');
+            $table->softDeletes();
+            $table->string('author');
             $table->string('image')->nullable();
-            $table->decimal('price', 8, 2);
-            $table->json('activities');
-             $table->softDeletes();
+    
 
         });
     }
@@ -30,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tours');
+        Schema::dropIfExists('blogs');
     }
 };
